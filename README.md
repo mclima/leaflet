@@ -1,2 +1,2 @@
 # leaflet
-Leaflet/OpenStreetMap Example
+Leaflet/OpenStreetMap with Cookie Consent Example
