@@ -2,11 +2,11 @@
   "name": "leaflet-cookieconsent",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://mclima.github.io/leaflet",
+  "homepage": "https://mclima.github.io/leaflet/index.html",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
