@@ -1,5 +1,5 @@
-const pin24 = '/images/pin24.png';
-const pin48 = '/images/pin48.png';
+const pin24 = './images/pin24.png';
+const pin48 = './images/pin48.png';
 
 export function initLeaf(markers) {
   if (!markers || !Array.isArray(markers)) {
@@ -52,7 +52,8 @@ export function initLeaf(markers) {
     const leafletMarker = L.marker([marker.location[0], marker.location[1]], { icon: myIcon })
       .bindPopup(popupContent, { 
         className: 'provider-popup-container',
-        maxWidth: 300
+        maxWidth: 300,
+        autoPan: false
       })
       .addTo(map);
     

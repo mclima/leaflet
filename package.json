@@ -2,7 +2,7 @@
   "name": "leaflet-cookieconsent",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://mclima.github.io/leaflet/index.html",
+  "homepage": "https://mclima.github.io/leaflet/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
